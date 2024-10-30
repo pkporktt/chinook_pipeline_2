@@ -15,6 +15,7 @@ config.read('./pipeline.conf')
 inputPath = config.get('DEFAULT', 'INPUT_PATH')
 outputPath = config.get('DEFAULT', 'OUTPUT_PATH_THB')
 
+#
 # Extract
 tracks = pd.read_csv(inputPath)
 
